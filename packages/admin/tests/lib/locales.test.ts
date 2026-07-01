@@ -66,6 +66,10 @@ describe("resolveLocale", () => {
 		expect(resolveLocale(makeRequest())).toBe(DEFAULT_LOCALE);
 	});
 
+	test("defaults to Simplified Chinese when no locale is provided", () => {
+		expect(DEFAULT_LOCALE).toBe("zh-CN");
+	});
+
 	// Cookie precedence
 	test("returns locale from emdash-locale cookie", () => {
 		expect(resolveLocale(makeRequest({ cookie: "emdash-locale=de" }))).toBe("de");

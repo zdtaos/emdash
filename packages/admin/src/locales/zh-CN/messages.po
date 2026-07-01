@@ -738,7 +738,7 @@ msgstr "右对齐"
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:324
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:513
 msgid "Alignment"
-msgstr ""
+msgstr "对齐方式"
 
 #: packages/admin/src/components/ContentList.tsx:283
 msgid "All"
@@ -1192,7 +1192,7 @@ msgstr "署名架构"
 
 #: packages/admin/src/components/Sidebar.tsx:347
 msgid "Byline Schema"
-msgstr ""
+msgstr "署名方案"
 
 #: packages/admin/src/components/ContentEditor.tsx:993
 #: packages/admin/src/components/Sidebar.tsx:342
@@ -1319,7 +1319,7 @@ msgstr "分类 ({0})"
 
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:161
 msgid "Center"
-msgstr ""
+msgstr "居中"
 
 #: packages/admin/src/components/BlockKitMediaPickerField.tsx:76
 #: packages/admin/src/components/BlockKitMediaPickerField.tsx:107
@@ -3518,7 +3518,7 @@ msgstr "起始日期"
 
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:164
 msgid "Full"
-msgstr ""
+msgstr "满宽"
 
 #: packages/admin/src/components/users/roleDefinitions.ts:43
 msgid "Full access"
@@ -4098,7 +4098,7 @@ msgstr "不分配"
 
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:160
 msgid "Left"
-msgstr ""
+msgstr "左对齐"
 
 #: packages/admin/src/components/MediaLibrary.tsx:127
 #: packages/admin/src/components/MediaLibrary.tsx:247
@@ -5015,7 +5015,7 @@ msgstr "暂无小部件区域。创建一个以开始使用。"
 
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:159
 msgid "None"
-msgstr ""
+msgstr "无"
 
 #: packages/admin/src/components/TaxonomyManager.tsx:418
 #: packages/admin/src/components/TaxonomyManager.tsx:424
@@ -5885,7 +5885,7 @@ msgstr "富文本编辑器"
 
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:162
 msgid "Right"
-msgstr ""
+msgstr "右对齐"
 
 #. placeholder {0}: latest.audit.riskScore
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:311
@@ -7801,7 +7801,7 @@ msgstr "整数"
 
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:163
 msgid "Wide"
-msgstr ""
+msgstr "宽幅"
 
 #: packages/admin/src/components/Widgets.tsx:722
 #: packages/admin/src/components/Widgets.tsx:737

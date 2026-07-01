@@ -31,10 +31,10 @@ export interface LocaleDefinition {
  */
 export const LOCALES: LocaleDefinition[] = [
 	// Source locale first, then alphabetical by English name.
+	{ code: "zh-CN", label: "简体中文", enabled: true }, // Chinese (Simplified)
 	{ code: "en", label: "English", enabled: true },
 	{ code: "ar", label: "العربية", enabled: true, dir: "rtl" }, // Arabic
 	{ code: "eu", label: "Euskara", enabled: true }, // Basque
-	{ code: "zh-CN", label: "简体中文", enabled: true }, // Chinese (Simplified)
 	{ code: "zh-TW", label: "繁體中文", enabled: true }, // Chinese (Traditional)
 	{ code: "en-GB", label: "English (UK)", enabled: true }, // English (United Kingdom)
 	{ code: "fa", label: "فارسی", enabled: true, dir: "rtl" }, // Farsi (also known as Persian)
