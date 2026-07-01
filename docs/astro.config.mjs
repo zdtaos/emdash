@@ -13,6 +13,7 @@ export default defineConfig({
 			disable404Route: true,
 			components: {
 				SkipLink: "./src/components/SkipLink.astro",
+				Head: "./src/components/Head.astro",
 			},
 			logo: {
 				light: "./src/assets/logo-light.svg",

@@ -1,0 +1,21 @@
+---
+const isEnabled = import.meta.env.PUBLIC_RITELY_ENABLED !== "false";
+const endpoint =
+	import.meta.env.PUBLIC_RITELY_ENDPOINT || "https://rite-ly.goatcounter.com/count";
+const scriptUrl = import.meta.env.PUBLIC_RITELY_SCRIPT_URL || "https://gc.zgo.at/count.js";
+const settings = {
+	no_onload: false,
+	no_events: false,
+	allow_local: false,
+	allow_frame: false,
+};
+---
+
+{isEnabled && (
+	<script
+		data-goatcounter={endpoint}
+		data-goatcounter-settings={JSON.stringify(settings)}
+		async
+		src={scriptUrl}
+	/>
+)}
